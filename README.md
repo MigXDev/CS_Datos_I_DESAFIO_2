@@ -4,7 +4,7 @@
 
 ### ✦ Descripción General ✦
 
-Proyecto "Churn de Clientes" de **TelecomX**: análisis de datos para comprender y reducir la tasa de cancelación de clientes.<br> Se utiliza **Python**, **Pandas** y **Matplotlib** para realizar extracción, limpieza, análisis exploratorio de datos (EDA) y generar<br>recomendaciones estratégicas.
+TelecomX LATAM es un proyecto de análisis de datos enfocado en comprender los factores detrás de la evasión de clientes (Churn). Mediante Python, Pandas y Matplotlib, se ejecuta un flujo ETL, estadísticas descriptivas, análisis exploratorio y visualizaciones estratégicas, generando insights claros y recomendaciones de negocio. Este proyecto forma parte de un desafío de prácticas reales para analistas de datos.
 
 ---
 
@@ -19,7 +19,7 @@ Proyecto "Churn de Clientes" de **TelecomX**: análisis de datos para comprender
 7. [Conclusiones e insights](#7-conclusiones-e-insights)
 8. [Recomendaciones](#8-recomendaciones)
 9. [Problemas frecuentes y soluciones](#9-problemas-frecuentes-y-soluciones)
-10. [Autor y contacto](#10-autor-y-contacto)
+10. [Créditos](#10-créditos)
 
 ---
 
@@ -36,10 +36,23 @@ El notebook desarrolla un flujo ETL completo:
 
 ## 2. ▌REQUISITOS DEL SISTEMA
 
-* Python >= 3.8
-* Jupyter Notebook
-* Pandas
-* Matplotlib
+
+| **Lenguaje**     |
+|:-----------------:|
+| **Python >= 3.8**| 
+|<img src="https://github.com/user-attachments/assets/9352bed0-668d-49ec-ab0b-e621ef4fa462" width="120" alt="Python logo">|
+
+|| **Bibliotecas necesarias:** ||
+|:-----------------:|:-----------------:|:-----------------:|
+| **Pandas**      | **Matplotlib**      | **NumPy**     
+|<img src="https://github.com/user-attachments/assets/9a938aa7-6c50-4142-aab8-68180fb072f9" width="120" alt="Pandas logo"> | <img src="https://github.com/user-attachments/assets/06721bd1-e433-4c99-aa2c-5799c9d2b286" width="120" alt="Matplotlib logo"> | <img src="https://numpy.org/images/logo.svg" width="120" alt="NumPy logo"> |
+
+|Entorno ||
+|:-----------------:|:-----------------:|
+|Jupyter Notebook| Google Colab|
+|<img width="120" height="120" alt="descarga" src="https://github.com/user-attachments/assets/ce18a335-1543-4194-a5b8-551c19348b0d" />|<img width="120" height="120" alt="descarga (1)" src="https://github.com/user-attachments/assets/a1ed5c80-3052-4264-8935-0930f80f1a2d" />|
+
+
 
 ```bash
 pip install -r requirements.txt
@@ -107,22 +120,29 @@ jupyter notebook TelecomX_LATAM.ipynb
 
 ## 9. ▌PROBLEMAS FRECUENTES Y SOLUCIONES
 
-| Problema            | Solución                                   |
-| ------------------- | ------------------------------------------ |
-| API no responde     | Verificar token y endpoint                 |
-| Error JSON          | Validar estructura de los datos            |
-| Librerías faltantes | Ejecutar `pip install -r requirements.txt` |
+| Problema                  | Solución                                   |
+| ------------------------- | -------------------------------------------- |
+| ◉ **API no responde**     | → Verificar token y endpoint                 |
+| ◉ **Error JSON**          | → Validar estructura de los datos            |
+| ◉ **Librerías faltantes** | → Ejecutar `pip install -r requirements.txt` |
 
 ---
 
-## 10. ▌AUTOR Y CONTACTO
+## 10. ▌CRÉDITOS
 
+Este análisis fue desarrollado como parte del Challenge Data Science LATAM , organizado por Alura , empleando datos públicos simulados con fines educativos.
+
+Este trabajo fue realizado siguiendo lineamientos prácticos de ETL, EDA y presentación de resultados para facilitar decisiones estratégicas y apoyar el desarrollo de futuros modelos predictivos.
+
+**Autor:**
 | <img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width="125">|
 |:-----------------:|
 | *[Miguel Angel Ajhuacho](https://github.com/MigXDev)* |
 
 **Contacto profesional:**  
 - GitHub: [@MigXDev](https://github.com/MigXDev)  
-- LinkedIn: *[Miguee](https://www.linkedin.com/in/ctrl-z--migue-ajh/)*  
+- LinkedIn: *[Miguee](https://www.linkedin.com/in/ctrl-z--migue-ajh/)*
+
+
 
 > 🚀 Utiliza este README como guía para entender y ejecutar el proyecto "Churn de Clientes" de TelecomX.
